@@ -6,10 +6,11 @@ void setup(){
 
 void loop() {
 	Dot(), Dot(), Dot();
-	delay();
+	delay(400);
 	Dash(), Dash(), Dash();
-	delay();
+	delay(400);
 	Dot(), Dot(), Dot();
+	delay(400);
 }
 
 void Dot() {
