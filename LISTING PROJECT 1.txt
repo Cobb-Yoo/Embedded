@@ -14,9 +14,13 @@ void loop() {
 }
 
 void Dot() {
+
 	//Write appropriate code here using digitalWrite, delay.
+
 }
 
 void Dash() {
+
 	//Write appropriate code here using digitalWrite, delay.
+
 }
