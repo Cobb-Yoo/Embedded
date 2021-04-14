@@ -1,0 +1,21 @@
+int ledPin = 10;
+
+void setup(){
+	pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+	Dot(), Dot(), Dot();
+	delay();
+	Dash(), Dash(), Dash();
+	delay();
+	Dot(), Dot(), Dot();
+}
+
+void Dot() {
+	//Write appropriate code here using digitalWrite, delay.
+}
+
+void Dash() {
+	//Write appropriate code here using digitalWrite, delay.
+}
