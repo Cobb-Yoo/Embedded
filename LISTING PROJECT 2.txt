@@ -7,7 +7,7 @@ char* letters[] = {
 	};
 
 char* numbers[] = {
-	"-----",".----","..---","...--","....-",".....","-....","--...","---..","----."
+	"-----",".----","..---","...--","....-",".....","-....","--...","---..","----." // 0~9
 	};
 
 int dotDelay = 200;
@@ -45,12 +45,8 @@ void loop()
 
 void flashSequence(char* sequence)
 {
-	int i=0;
-	while(sequence[i] != NULL)
-	{
-		flashDotOrDash(sequence[i]);
-	}
-	delay(dotDelay * 3);			// gap between letters
+	// This function sends char array values ​to flashDotOrDash.
+	// Note the delay value.
 }
 
 void flashDotOrDash(char dotOrDash)
