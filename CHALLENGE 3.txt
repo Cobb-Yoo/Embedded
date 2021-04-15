@@ -35,13 +35,13 @@ void loop() {
       check();
       l_idx = 0;
     }
-
-
   }
 }
 
 void check() {
   int i, j, strike = 0, ball = 0;
+
+  // Write the appropriate code here.
   
 
   if (strike == 3) rightAnswer();
