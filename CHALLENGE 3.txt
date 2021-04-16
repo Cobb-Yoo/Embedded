@@ -21,7 +21,7 @@ void loop() {
         answer[idx++] = ch;
       }
 
-      if(idx == 3) {
+      if (idx == 3) {
         Serial.println("문제 입력이 완료되었습니다.!");
       }
     }
@@ -41,8 +41,19 @@ void loop() {
 void check() {
   int i, j, strike = 0, ball = 0;
 
-  // Write the appropriate code here.
-  
+  for (i = 0; i < 3; i++) {
+    for (j = 0; j < 3; j++) {
+      if (answer[j] == prop[i]) {
+        if (i == j) {
+          strike++;
+        }
+        else {
+          ball++
+        }
+      }
+    }
+  }
+
 
   if (strike == 3) rightAnswer();
   else {
